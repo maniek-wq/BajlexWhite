@@ -42,13 +42,13 @@
 }
 
 #mid{
-    width:600px;
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
-    font-weight: bold;
-    
+  width:500px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  font-weight: bold;
+  
 }
 
 #hamburger{
