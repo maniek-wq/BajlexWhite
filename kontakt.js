@@ -81,7 +81,7 @@ if(mediaQuery.matches){
 
                mainPageWriting.textContent="Strona główna";
                mainPageWriting.addEventListener("click",function(){
-                window.location.href="./main.html";
+                window.location.href="./index.html";
                });
 
                serivceWriting.textContent="Usługi";
