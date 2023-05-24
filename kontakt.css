@@ -126,10 +126,10 @@ a:visited{
 
 
 #myContent{
-    height:100vh;
+    height:110vh;
     width:100%;
     margin-top: 70px;
-    background-color: white;
+    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -193,21 +193,20 @@ a:visited{
 
 #map{
     width:100%;
-    height:100%;
+    height:400px;
     border:solid 3px white;
+    border-radius: 30px;
+    transform: translateY(10%);
 }
 
-#footer{
 
-    width:100%;
-    height:50%;
-    background-color: white;
-}
 
 h3{
     color:black;
 }
 #footer{
+    width:100%;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -257,3 +256,118 @@ h3{
     }
    
 }
+
+.sponsors{
+    width:100%;
+    height:10vh;
+    background-color: #ffff;
+    color:#0000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:30px
+}
+
+p{
+    color:black;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.logos{
+    
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lg,.lg1,.lg2,.lg3,.lg4,.lg5,.lg6,
+.lg7,.lg8,.lg9,.lg10,.lg11,.lg12{
+    
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
+}
+#hamburger {
+    display: none;
+  }
+  
+  #hamburger .line {
+    width: 30px;
+    height: 3px;
+    width: 40px;
+    background-color: black;
+    margin: 4px;
+  }
+@media  screen and (max-width:767px) {
+    
+   
+    #kontaktHeader{
+        font-size: 3rem;
+        text-align: center;
+        width:100%;
+    }
+    
+    #ikony{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: max-content;
+        gap:50px;
+    }
+    #map{
+       display: none;
+    }
+    .sponsors{
+        display: none;
+    }
+
+  
+   #navbar #mid,#contactBtn{
+    display: none;
+}
+
+
+#hamburger {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+
+ 
+}
+#navbar {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#logo1{
+    
+    width:100px;
+    
+}
+  #footer{
+    height:20vh;
+  }
+}
+
+#menu{
+    width:250px;
+    height:300px;
+    background-color: #f9f9f9;
+    border:solid 0.5px black;
+    border-radius: 10px;
+    z-index: 999;
+    position: fixed;
+    left:60%;
+    transform: translateX(-60%);
+    top:6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    color:black;
+    font-weight: bold;
+  }
+
+
+ 
