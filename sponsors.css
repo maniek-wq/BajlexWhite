@@ -399,6 +399,7 @@ z-index: 999;
     gap: 50px;
     
   }
+  
  .logos{
 
   width: 100%;
@@ -525,7 +526,27 @@ z-index: 999;
    z-index: 999;
   }
   #container{
-   height:140vh;
+   height:150vh;
+  }
+  
+ }
+
+ @media  screen and (max-width:400px) {
+  #navbar{
+   z-index: 999;
+  }
+  #container{
+   height:320vh;
+  }
+  
+ }
+
+ @media  screen and (min-width:400px) {
+  #navbar{
+   z-index: 999;
+  }
+  #container{
+   height:360vh;
   }
   
  }
