@@ -300,7 +300,9 @@ p{
     margin: 4px;
   }
 @media  screen and (max-width:767px) {
-    
+    #tele-text,#mail-text, #adres-text{
+        z-index: 0;
+    }
    
     #kontaktHeader{
         font-size: 3rem;
