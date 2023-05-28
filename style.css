@@ -606,3 +606,17 @@ display: none;
   font-size: 12px;
 }
 }
+
+@media screen and (max-width: 533px) {
+  #firm{
+  
+    font-size: 1.8rem;
+  }
+  #text{
+    width:95%;
+  }
+  #text p{
+   
+    font-size: 1rem;
+  }
+}
