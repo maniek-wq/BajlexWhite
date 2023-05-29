@@ -544,15 +544,12 @@ display: none;
 }
 #text p{
  
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 }
 
-/* Ekran o szerokości od 481 pikseli do 768 pikseli */
-@media screen and (min-width: 481px) and (max-width: 768px) {
- 
-}
+
 @media screen and (max-width: 310px) {
   #logo1{  
     width:100px;
@@ -607,16 +604,3 @@ display: none;
 }
 }
 
-@media screen and (max-width: 533px) {
-  #firm{
-  
-    font-size: 1.8rem;
-  }
-  #text{
-    width:95%;
-  }
-  #text p{
-   
-    font-size: 1rem;
-  }
-}
