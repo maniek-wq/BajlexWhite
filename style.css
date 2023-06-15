@@ -150,7 +150,7 @@ and (max-width: 1366px)
     justify-content: center;
     align-items: center;
     justify-items: center;
-    background-color: white;
+    background-color: #F9F9F9;
   }
 
   #text{
@@ -210,18 +210,19 @@ and (max-width: 1366px)
   justify-content: space-around;
   justify-items: center;
   align-items: center;
-  background-color: #ffff;
+  background-color: #F9F9F9;
   flex-wrap: wrap;
   
 }
 #writing{
   width:100%;
   padding-left: 30px;
+  transform: translateY(200px);
 }
 #left{
   width:500px;
   height:400px;
-  background-color: white;
+  background-color: #F9F9F9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -233,7 +234,7 @@ and (max-width: 1366px)
   width:500px;
   height:400px;
   
-  background-color: white;
+  background-color: #F9F9F9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -245,7 +246,7 @@ and (max-width: 1366px)
   width:500px;
   height:400px;
  
-  background-color: white;
+  background-color: #F9F9F9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -255,7 +256,7 @@ and (max-width: 1366px)
 }
 
 #footer{
-  background-color: #F9F9F9;
+  background-color: #FFFF;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
