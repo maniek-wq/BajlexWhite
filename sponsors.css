@@ -285,11 +285,21 @@ h3{
   object-fit: contain;
 }
 
-/* p{
-  color:black;
-  font-size: 1rem;
-  font-weight: 800;
-} */
+@keyframes load{
+  0%{
+      transform:translateY(300px);
+      opacity:0.8;
+  }
+  50%{
+      opacity:0.9;
+  }
+  100%{
+      transform:translateY(0px);
+      opacity:1;
+  }
+
+  
+}
 .logos{
   width:100%;
   display: flex;
@@ -299,6 +309,8 @@ h3{
   height:300px;
   gap:30px;
 }
+
+
 .logos img{
   display: block;
 }
@@ -372,7 +384,6 @@ h3{
   transform: translateY(1200px);
   gap:20px;
   z-index: 1;
-  
  }
  .logos img{
   mix-blend-mode: color-burn;
@@ -448,6 +459,7 @@ z-index: 999;
     display: none;
   }
   }
+
 
 
 

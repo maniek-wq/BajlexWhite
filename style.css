@@ -450,9 +450,12 @@ background-image: url("img/status.png");
 and (min-width: 1030px)   
 and (max-width: 1366px)  
 { 
+  .container{
+    gap:0;
+  }
   #first{
     width:100%;
-    height:110vh;
+    height:120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -463,10 +466,16 @@ and (max-width: 1366px)
 
   #text{
     text-align: center;
-    width:100%;
+    width:80%;
     font-size: 16px;
     font-weight: 600;
     
+  }
+
+  #writing{
+    width: 100%;
+    padding-left: 30px;
+     transform: translateY(0);
   }
 } 
 
