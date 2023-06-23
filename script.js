@@ -121,3 +121,35 @@ if(mediaQuery.matches){
                 }
         });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll(".section");
+    const windowHeight = window.innerHeight;
+
+    function checkSectionInView() {
+        sections.forEach(function(section) {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop - windowHeight <= 0) {
+                section.classList.add("active");
+            }
+        });
+    }
+
+    function throttle(func, limit) {
+        let inThrottle;
+        return function() {
+            const args = arguments;
+            const context = this;
+            if (!inThrottle) {
+                func.apply(context, args);
+                inThrottle = true;
+                setTimeout(function() {
+                    inThrottle = false;
+                }, limit);
+            }
+        };
+    }
+
+    const throttledScroll = throttle(checkSectionInView, 200);
+    window.addEventListener("scroll", throttledScroll);
+});
