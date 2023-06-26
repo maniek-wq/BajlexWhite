@@ -37,7 +37,7 @@ instagram.addEventListener("click",function(){
 let mediaQuery = window.matchMedia("(max-width: 767px)");
 
 const mainPageWriting = document.createElement("a");
-    mainPageWriting.textContent="Strona główna";
+    mainPageWriting.textContent="O nas";
     mainPageWriting.addEventListener("click",function(){
         window.location.href="./index.html";
     });
@@ -82,7 +82,7 @@ if(mediaQuery.matches){
                         menu.appendChild(contactWriting);
                         menu.appendChild(newsWriting);
                         menu.appendChild(spons); 
-                        mainPageWriting.textContent="Strona główna";
+                        mainPageWriting.textContent="O nas";
                         mainPageWriting.addEventListener("click",function(){
                                 window.location.href="./index.html";
                         });
